@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weather works first</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Dennis vizza  Cit 230">
+    <link rel="shortcut icon" href="img/portal-icon.png">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&7cSource+Serif+Pro&display=swap" rel="stylesheet">
+    <link href="style/small.css" rel="stylesheet">
+    <link href="style/medium.css" rel="stylesheet">
+    <link href="style/large.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img src="img/weather.png" alt="icon" style="width:auto;">
+        </picture>
+        <section class="heading">
+            <h1>Weather first </h1>
+            <div class="motto">Weather Southeast Idaho</div>
+        </section>
+    </header>
+    <nav class="navigation">
+        <ul>
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li class="active"><a href="../lesson 4/preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">parks</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston, Idaho</h2>
+        <div class="herodiv">
+            <picture>
+                <img src="img/farmers_market2.jpg" alt="location">
+            </picture>
+            <section class="weathersummary">
+                <div class="summaryInfo1">
+                    <h3>Weather&nbsp;</h3>
+                </div>
+                <div class="summaryInfo2">
+                    <h3>Summary&nbsp;&nbsp;&nbsp;</h3>
+                </div>
+                <div class="summaryInfo1">Currently:&nbsp;</div>
+                <div class="summaryInfo2">Sunny</div>
+                <div class="summaryInfo1">High: &nbsp;</div>
+                <div class="summaryInfo2">40 &#8457;</div>
+                <div class="summaryInfo1">Wind Chill: &nbsp;</div>
+                <div class="summaryInfo2">30 &#8457;</div>
+                <div class="summaryInfo1">Humidity: &nbsp;</div>
+                <div class="summaryInfo2">20%</div>
+                <div class="summaryInfo1">Wind Speed: &nbsp;</div>
+                <div class="summaryInfo2">5 mph</div>
+                <div class="forecastContainer"></div>
+            </section>
+        </div>
+        <section>
+            <div class="forecastContainer">
+                <h3>5 Day Forecast</h3>
+                <div class="forecast">
+                    <div class="days">Tues</div>
+                    <div class="days">Wed</div>
+                    <div class="days">Thurs</div>
+                    <div class="days">Fri</div>
+                    <div class="days">Sat</div>
+
+                    <div class="precip"><img src="icon/cloudy-day-2.svg" alt="sunny icon"></div>
+                    <div class="precip"><img src="icon/rainy-2.svg" alt="cloudy"></div>
+                    <div class="precip"><img src="icon/snowy-3.svg" alt="snow icon"></div>
+                    <div class="precip"><img src="icon/thunder.svg" alt="sunny icon"></div>
+                    <div class="precip"><img src="icon/cloudy-day-2.svg" alt="sunny icon"></div>
+                    <div class="temp">45 &#8457;</div>
+                    <div class="temp">40 &#8457;</div>
+                    <div class="temp">30 &#8457;</div>
+                    <div class="temp">32 &#8457;</div>
+                    <div class="temp">35 &#8457;</div>
+                </div>
+            </div>
+            <div class="article">
+                <picture>
+                    <img src="img/park.jpg" alt="park" style="width:auto;">
+                </picture>
+
+                <h3>Welcome to the spot </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ad rerum nesciunt! Consequatur optio at odit necessitatibus inventore velit aperiam, totam exercitationem aliquid magni quaerat obcaecati a vel quas vitae.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim natus fugiat facilis dolorem similique ut debitis pariatur autem neque voluptatibus deserunt, consequatur expedita beatae ipsam! Quis architecto illo quia asperiores.Ipsam dolorum nobis, eveniet quaerat assumenda, reiciendis, cupiditate ipsum illo perferendis ipsa voluptatum error sunt quia. 
+                    Cupiditate neque, amet maxime temporibus, corporis ullam similique cumque, laborum dolore sapiente dolorem iure!</p>
+            </div>
+        </section>
+        <div class="contactInfo">contactInformation</div>
+        <div class="address"> www.weatherworksfirst.org</div>
+        <h3>weather works first inc</h3>
+        <div class="address"> Address 934 main Street </div>
+        <h4>map of Idaho</h4>
+        <div class="prestonidaho"><img src="img/map.png" alt="location"> </div>
+
+    </main>
+    <footer>
+        &copy; 2020 |Dennis vizza | Preston |Idaho| <a id="b" href="https://www.byui.edu/online" target="_blank">BYUI
+            Online student Learning </a>
+        <p id="lastMod"></p>
+        <script src="js/lastmodified.js"></script>
+        <script src="js/toggle.js"></script>
+        <script src="js/windchill.js"></script>
+    </footer>
+</body>
+
+</html>

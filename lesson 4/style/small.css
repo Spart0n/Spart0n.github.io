@@ -109,7 +109,7 @@ img {
 }
 
 h1 h2 h3 {
-    color: #F0FFFF;
+    color: #0f6969;
 }
 
 h1 {
@@ -122,26 +122,26 @@ h1 {
 
 h2 {
     font-size: 1.75em;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 
 }
 h3 {
     font-size: 1.25em;
     font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h4, h5 {
     font-size: 1em;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #94C9FF;
     color: #00264d;
 }
 
 p {
     font-size: 1.25em;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 0.2rem;
     color: #00264d;
 }
