@@ -83,8 +83,8 @@ body {
     margin : 0;
     }
     footer {
-    background-color : #c3f0ff;
-    color : #00264d;
+        background-color:rgb(39, 63, 63);
+        color: #808080;
     }
     a:link {
     color : #00264d;
