@@ -89,7 +89,7 @@ body{
   /* Showcase */
   #showcase{
     min-height:400px;
-    background-image: url("img/rental-banner.jpg");
+    background-image: url("../img/rental-banner.jpg");
     background-repeat: no-repeat;
     text-align:center;
     color:#ffffff;
