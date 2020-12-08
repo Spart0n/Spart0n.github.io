@@ -5,6 +5,12 @@
         "order": 1,
         "image": "json img/2 door jeep.png"
        
+      },
+      {
+        "make": "Jeep",
+        "model": "rubicon",
+        "order": 2,
+        "image": "json img/2 door jeep.png"
       }
     ]
   }

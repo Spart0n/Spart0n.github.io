@@ -3,6 +3,9 @@
         "make": "Jeep",
         "model": "rubicon",
         "order": 1,
+        "maxPerson": "Four",
+        "halfday": "$60",
+        "fullday": "$85",
         "image": " img/2 door jeep.png"
        
       },
@@ -10,8 +13,47 @@
         "make": "Jeep",
         "model": "Wrangler",
         "order": 2,
+        "maxPerson": "Five",
+        "halfday": "$70",
+        "fullday": "$100",
         "image": "img/jeep manual.jpg"
-    }
+    },
+    {
+      "make": "honda",
+      "model": "metro",
+      "order": 3,
+      "maxPerson": "one",
+      "halfday": "$20",
+      "fullday": "$40",
+      "image": "img/honda metro.jpg"
+  },
+  {
+    "make": "honda",
+    "model": "pcx150",
+    "order": 4,
+    "maxPerson": "two",    
+    "halfday": "$40",
+    "fullday": "$50",
+    "image": "img/honda pcx150.jpg"
+},
+{
+  "make": "honda",
+  "model": "pioneer",
+  "order": 5,
+  "maxPerson": "Four",
+  "halfday": "$50",
+  "fullday": "$70",
+  "image": "img/honda pioneer.jpg"
+},
+{
+  "make": "honda",
+  "model": "dio",
+  "order": 6,
+  "maxPerson": "two",
+  "halfday": "$30",
+  "fullday": "$40",
+  "image": "img/honda-dio.jpg"
+}
   ]
 }
 
