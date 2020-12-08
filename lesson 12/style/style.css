@@ -142,6 +142,12 @@ body{
   #boxes .box img{
     width:90px;
   }
+
+
+#boxes .imgRes{
+  width: 100%;
+  height: auto;
+}
   
   /* Sidebar */
   aside#sidebar{
@@ -178,7 +184,7 @@ body{
     text-align: center;
 
     
-  }
+  
   
   /* Media Queries */
   @media(max-width: 768px){
@@ -213,4 +219,4 @@ body{
       margin-bottom:5px;
     }
   }
-  
+}
