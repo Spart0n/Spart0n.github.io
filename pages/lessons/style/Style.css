@@ -15,12 +15,18 @@ body{
 
 h1{
     font-size: larger;
+    padding: 10px;
     font-family: 'Comic Neue', cursive;
     line-height: normal;
     text-align: center;
     color: #2F4550;
     background-color:#B8DBD9;
 
+}
+
+h2{
+    padding: bottom;
+    height: auto;
 }
 
 header, main, footer {
