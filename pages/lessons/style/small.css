@@ -1,0 +1,112 @@
+
+
+
+body{
+    font-size: 100%;
+    line-height: 1.5;
+    font-family: 'Comic Neue', cursive;
+    color: #2F4550;
+    background-color: #B8DBD9;
+}
+
+/*header rules*/
+header {
+    padding: .5rem 2%;
+}
+header h1 {
+    margin: 0;
+    font-size: 1rem;
+}
+header h2 {
+    margin: 0;
+    font-size: .5rem;
+}
+header, nav, main, footer {
+    margin: 0 auto;
+    max-width: 750px;
+}
+header, footer {
+    text-align: center;
+    background-color: #2F4550;
+    color: #B8DBD9;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: solid thin black;
+}
+p {
+    text-align: left;
+}
+ #P_1 {
+    text-align: center;
+    
+}
+
+#P_2 {
+    text-align: center;
+}
+#P_3 {
+    text-align: center;
+}
+button {
+    background-color: #B8DBD9;
+    border-radius: 10px;
+    
+    }
+
+main {
+    max-width: 750px;
+    margin: 0 auto;
+    }
+
+h3 {
+   
+    background-color: #2F4550 ;
+    color:#B8DBD9;
+    text-align: center;
+}
+main picture {
+    display: block;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 1rem;
+}
+
+main section {
+    margin: 0.5rem;
+    border: 1px solid black;
+    padding: 0 1rem;
+    color: #B8DBD9;
+    background-color: #2F4550;
+    border-radius: 10px;
+
+}
+
+section:nth-child(2) {
+    display: none;
+    margin: 0.5rem;
+
+}
+
+header footer {
+    text-align: center;
+    background-color: #2F4550;
+}
+
+h2 {
+    color: #B8DBD9;
+
+}
+
+p {
+    text-align: left;
+}
+
+
+
