@@ -4,6 +4,8 @@
 /* * is a wildcard referring to all elements. */
 * { margin: 0; box-sizing: border-box;}
 
+
+
 body{
     font-size: 18px;
     line-height: normal;
@@ -36,5 +38,10 @@ img{
     width: 150px;
     height: 150px;
 
+}
+ul{
+    
+        clear: both;
+      
 }
 
