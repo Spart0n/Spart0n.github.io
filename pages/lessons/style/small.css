@@ -107,7 +107,7 @@ h2 {
 p {
     text-align: left;
 }
-Rcorner1,Rcorner2,Rcorner3{
+#Rcorner1,#Rcorner2,#Rcorner3{
     color:black;
     border-radius: 25px;
     background: #309b8c;
