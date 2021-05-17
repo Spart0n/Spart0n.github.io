@@ -43,13 +43,13 @@ header, footer {
 header {
     line-height: .5;
     background-color: #fff8dc;
-    color:#ccc4a3 ;
+    color:#003f5e ;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 header img {
-    width: 180px;
+    width: 250px;
     height:auto ;
 }
 .motto {
@@ -67,4 +67,58 @@ header img {
 footer {
     background-color:#003f5e ;
     color: #fff8dc;
+}
+/*the link hover and activation and the color is shows when you have clicked it*/
+a:link {
+    color: black;
+}
+a:visited {
+    color: #437f97;
+}
+a:hover{
+    background-color: #9db2ad;
+    color: black;
+}
+a:active {
+    background-color: #9db2ad;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    float: center;
+}
+h1, h2, h3 {
+    color:black ;
+}
+h1{
+    font-size: 1.75em;
+    font-weight: bold;
+    font-family: 'IBM Plex Sans', sans-serif;
+    line-height: 100%;
+}
+h2{
+    font-size: 2.5em;
+    font-family:'IBM Plex Sans', sans-serif ;
+    text-align: center;
+}
+h3{
+    font-size: 1.25em;
+    font-weight: bold;
+    font-family:'IBM Plex Sans', sans-serif ;
+}
+p{
+    font-size: 1.25em;
+    font-family:'IBM Plex Sans', sans-serif ;
+    padding: 0.2rem;
+    color: black;
+}
+.contentbox {
+    display: block;
+    margin: 5px auto;
+    border: 1px dotted #003f5e;
+}
+.responsive li {
+    display: block;
 }
