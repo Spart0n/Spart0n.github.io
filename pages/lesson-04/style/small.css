@@ -73,14 +73,14 @@ a:link {
     color: black;
 }
 a:visited {
-    color: #437f97;
+    color: #5aecec;
 }
 a:hover{
-    background-color: #9db2ad;
+    background-color: #78aaaa;
     color: black;
 }
 a:active {
-    background-color: #9db2ad;
+    background-color: #2df8f8;
     color: black;
 }
 
