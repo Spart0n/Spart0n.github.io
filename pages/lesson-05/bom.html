@@ -10,7 +10,11 @@
   <link rel="stylesheet" href="style/bom.css">
   <title>Document</title>
 </head>
+
 <body>
+  <li><a href="../../index.html">Portal Home</a></li>
+  <!--
+    
   <h1>📘 Book of Mormon - Top 25</h1>
     <main>
       <div class="input">
@@ -23,11 +27,27 @@
         </ul>
       </div>
     </main>
+-->
+<h1>📘 Book of Mormon - Top 25</h1>
+    <main>
+      <label>Enter Book and Chapter
+      <input type="text" id="alma">
+      <br>
+      <p>Your top Book Mormon chapter is : <b id='boldStuff2'></b> 
+      </p>
+      <p>favorite character list:</p>
+      <ol id="chapter"></ol>
+      <input type='button' onclick='changeText2()' value='Submit' />
+     
+    </main>
+
+
+
     <footer>
       <p>&copy; 2021 Dennis Vizza | Byui Portal | Oklahoma, USA | <a href="http://www.byui.edu/online">BYU-Idaho </a></p>
       <p id ="lastMod"></p>
       <!--Note to self script tags incompes what will run in the js folder and it how it looks for it in the directory. -->
-    <p>  <script src="js/modified.js"></script></p>
+    <p>  <script src="/js/modified.js"></script></p>
   </footer>  
   <script src="js/bom.js"> </script>
 </body>
