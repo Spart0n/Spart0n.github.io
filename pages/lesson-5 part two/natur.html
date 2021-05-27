@@ -14,6 +14,7 @@
     <link href="style/large.css" rel="stylesheet">
     <link href="style/normalize.css" rel="stylesheet">
     <link href="style/map.css" rel="stylesheet">
+    
 </head>
 <body>
     <header>
@@ -96,6 +97,12 @@
 <h3>weather works first inc</h3>
 <div class="address"> Address 1237 main Street  </div>	
 <h4>map of Idaho</h4>
+<div id="map"></div>
+   <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+   <script
+   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbBRU_uiaTeYuNoaH01TTNLn7S6OpSDVY&callback=initMap&libraries=&v=weekly"
+   async
+ ></script>
 
 <!--The div element for the map -->
 <!-- work in progress !!
@@ -114,7 +121,7 @@ async
         <!--Note to self script tags incompes what will run in the js folder and it how it looks for it in the directory. -->
       <p>  <script src="js/modified.js"></script></p>
     </footer>   
-
+    <script src="js/map.js"></script>
 </body>
 
 </html>
