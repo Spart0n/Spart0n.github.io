@@ -1,0 +1,53 @@
+@media only screen and (min-width: 38.5em) {
+    header img {
+    width : 100%;
+    }
+    nav ul {
+    display : flex;
+    }
+    .navigation li:first-child {
+    display : none;
+    }
+    .navigation li {
+    display : block;
+    flex : 1 1 100%;
+    }
+    .forecastContainer {
+    display : block;
+    text-align : center;
+    margin : 20px 20px 50px 20px;
+    }
+    .forecastContainer h3 {
+    margin : 0;
+    }
+    .forecast {
+    max-width : 500px;
+    display : grid;
+    grid-template-columns : auto auto auto auto auto;
+    margin : 0 auto;
+    padding : 15px;
+    }
+    .days {
+    background-color : #003f5e;
+    color : black ;
+    }
+    .precip {
+    border-right : 1px solid #003f5e;
+    border-left : 1px solid #003f5e;
+    padding : 30px;
+    }
+    .temp {
+    border-bottom : 1px solid #003f5e;
+    border-right : 1px solid #003f5e;
+    border-left : 1px solid #003f5e;
+    }
+    .article img {
+    max-width : 60%;
+    height : auto;
+    float : right;
+    padding : 0 0 5px 10px;
+    }
+    .map {
+    display : block;
+    }
+}
